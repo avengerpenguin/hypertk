@@ -1,4 +1,4 @@
-from typing import Any, Mapping, Optional, Sequence, Union
+from typing import Any, List, Mapping, Optional, Sequence, Union
 
 import setuptools
 from setuptools.dist import Distribution
@@ -35,7 +35,7 @@ def setup(
     cmdclass: Optional[Mapping[str, Command]] = ...,
     package_dir: Optional[Mapping[str, str]] = ...,
     include_package_data: Optional[bool] = ...,
-    package_data: Optional[Mapping[str, str]] = ...,
+    package_data: Optional[Mapping[str, List[str]]] = ...,
     zip_safe: Optional[bool] = ...,
     install_requires: Optional[Union[Sequence[str], str]] = ...,
     entry_points: Optional[Mapping[str, Union[str, Sequence[str]]]] = ...,

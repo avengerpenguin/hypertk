@@ -13,7 +13,7 @@ setup(
     author_email="github@rossfenning.co.uk",
     packages=[NAME],
     package_data={NAME: ["py.typed"]},
-    description="{{cookiecutter.description}}",
+    description="Hypermedia Toolkit",
     setup_requires=[
         "setuptools_scm>=3.3.1",
         "pre-commit",
