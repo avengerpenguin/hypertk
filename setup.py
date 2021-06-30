@@ -18,7 +18,7 @@ setup(
         "setuptools_scm>=3.3.1",
         "pre-commit",
     ],
-    install_requires=[],
+    install_requires=["doltcli"],
     extras_require={
         "test": ["pytest", "hypothesis", "pytest-pikachu", "pytest-mypy"],
     },
